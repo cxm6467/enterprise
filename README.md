@@ -58,19 +58,19 @@ Format code:
 npm run format
 ```
 
-## 🏗️ Project Structure ([Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/))
+## 🏗️ Project Structure (Atomic Design)
 
 ```
 src/
 ├── components/
-│   ├── atoms/          # [Basic building blocks](https://atomicdesign.bradfrost.com/chapter-2/#atoms) (buttons, inputs, etc.)
-│   ├── molecules/      # [Groups of atoms](https://atomicdesign.bradfrost.com/chapter-2/#molecules) (search bar, card header, etc.)
-│   ├── organisms/      # [Complex UI components](https://atomicdesign.bradfrost.com/chapter-2/#organisms) (header, forms, etc.)
-│   └── templates/      # [Page-level layouts](https://atomicdesign.bradfrost.com/chapter-2/#templates)
-├── pages/             # [Next.js pages](https://nextjs.org/docs/pages/building-your-application/routing) and [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes)
-├── styles/            # [Global styles](https://nextjs.org/docs/pages/building-your-application/styling/css-modules) and themes
-├── types/             # [TypeScript type definitions](https://www.typescriptlang.org/docs/handbook/2/type-declarations.html)
-└── utils/             # [Utility functions](https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore) and helpers
+│   ├── atoms/          # Basic building blocks (buttons, inputs, etc.)
+│   ├── molecules/      # Groups of atoms (search bar, card header, etc.)
+│   ├── organisms/      # Complex UI components (header, forms, etc.)
+│   └── templates/      # Page-level layouts
+├── pages/              # Next.js pages and API routes
+├── styles/             # Global styles and themes
+├── types/              # TypeScript type definitions
+└── utils/              # Utility functions and helpers
 ```
 
 ## 🔧 Tech Stack
@@ -95,10 +95,6 @@ src/
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
