@@ -1,40 +1,105 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Enterprise Application
 
-## Getting Started
+A modern web application built with Next.js, TypeScript, and Atomic Design principles.
 
-First, run the development server:
+## 🚀 Features
 
+- ⚡ Next.js 14 with TypeScript
+- 🎨 Atomic Design Architecture
+- 🧪 Testing with Jest and React Testing Library
+- 🧹 Code Quality with ESLint and Prettier
+- 🛠️ Git Hooks with Husky
+
+## 🛠️ Prerequisites
+
+- Node.js 20.11.1+ (LTS)
+- npm 10.5.0+
+
+## 🚀 Getting Started
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/cxm6467/enterprise.git
+   cd enterprise
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+   Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## 🧪 Testing
+
+Run tests:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm test
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Run tests in watch mode:
+```bash
+npm run test:watch
+```
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## 🧹 Linting & Formatting
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Lint code:
+```bash
+npm run lint
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+Format code:
+```bash
+npm run format
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🏗️ Project Structure (Atomic Design)
 
-## Learn More
+```
+src/
+├── components/
+│   ├── atoms/          # Basic building blocks (buttons, inputs, etc.)
+│   ├── molecules/      # Groups of atoms (search bar, card header, etc.)
+│   ├── organisms/      # Complex UI components (header, forms, etc.)
+│   └── templates/      # Page-level layouts
+├── pages/             # Next.js pages and API routes
+├── styles/            # Global styles and themes
+├── types/             # TypeScript type definitions
+└── utils/             # Utility functions and helpers
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 🔧 Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+- **Framework**: Next.js 14
+- **Language**: TypeScript 5.0+
+- **Styling**: CSS Modules (built-in with Next.js)
+- **Testing**: Jest, React Testing Library
+- **Linting**: ESLint, Prettier
+- **Version Control**: Git
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📚 Documentation
 
-## Deploy on Vercel
+- [Next.js Documentation](https://nextjs.org/docs)
+- [TypeScript Documentation](https://www.typescriptlang.org/docs/)
+- [Atomic Design Methodology](https://bradfrost.com/blog/post/atomic-web-design/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🤝 Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Made with ❤️ by [Your Name]
