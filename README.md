@@ -58,29 +58,29 @@ Format code:
 npm run format
 ```
 
-## 🏗️ Project Structure (Atomic Design)
+## 🏗️ Project Structure ([Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/))
 
 ```
 src/
 ├── components/
-│   ├── atoms/          # Basic building blocks (buttons, inputs, etc.)
-│   ├── molecules/      # Groups of atoms (search bar, card header, etc.)
-│   ├── organisms/      # Complex UI components (header, forms, etc.)
-│   └── templates/      # Page-level layouts
-├── pages/             # Next.js pages and API routes
-├── styles/            # Global styles and themes
-├── types/             # TypeScript type definitions
-└── utils/             # Utility functions and helpers
+│   ├── atoms/          # [Basic building blocks](https://atomicdesign.bradfrost.com/chapter-2/#atoms) (buttons, inputs, etc.)
+│   ├── molecules/      # [Groups of atoms](https://atomicdesign.bradfrost.com/chapter-2/#molecules) (search bar, card header, etc.)
+│   ├── organisms/      # [Complex UI components](https://atomicdesign.bradfrost.com/chapter-2/#organisms) (header, forms, etc.)
+│   └── templates/      # [Page-level layouts](https://atomicdesign.bradfrost.com/chapter-2/#templates)
+├── pages/             # [Next.js pages](https://nextjs.org/docs/pages/building-your-application/routing) and [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes)
+├── styles/            # [Global styles](https://nextjs.org/docs/pages/building-your-application/styling/css-modules) and themes
+├── types/             # [TypeScript type definitions](https://www.typescriptlang.org/docs/handbook/2/type-declarations.html)
+└── utils/             # [Utility functions](https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore) and helpers
 ```
 
 ## 🔧 Tech Stack
 
-- **Framework**: Next.js 14
-- **Language**: TypeScript 5.0+
-- **Styling**: CSS Modules (built-in with Next.js)
-- **Testing**: Jest, React Testing Library
-- **Linting**: ESLint, Prettier
-- **Version Control**: Git
+- **Framework**: [Next.js 14](https://nextjs.org/blog/next-14)
+- **Language**: [TypeScript 5.0+](https://www.typescriptlang.org/docs/)
+- **Styling**: [CSS Modules](https://github.com/css-modules/css-modules) (built-in with [Next.js](https://nextjs.org/docs/pages/building-your-application/styling/css-modules))
+- **Testing**: [Jest](https://jestjs.io/), [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
+- **Linting**: [ESLint](https://eslint.org/), [Prettier](https://prettier.io/)
+- **Version Control**: [Git](https://git-scm.com/)
 
 ## 📚 Documentation
 
@@ -102,4 +102,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Made with ❤️ by [Your Name]
+Made with ❤️ by [Your Name] ← intentionally keeping this line as is.
